@@ -1,0 +1,20 @@
+
+#include <stdio.h>
+
+#define INF 9999
+#define V 6
+
+void dijkstra(int graph[V][V], int src) {
+}
+
+int main() {
+    int graph[V][V] = { {0, 1, 4, 0, 0, 0},
+                        {1, 0, 4, 2, 7, 0},
+                        {4, 4, 0, 3, 5, 0},
+                        {0, 2, 3, 0, 4, 6},
+                        {0, 7, 5, 4, 0, 7},
+                        {0, 0, 0, 6, 7, 0} };
+
+    dijkstra(graph, 0); 
+return 0;
+}
